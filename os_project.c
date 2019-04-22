@@ -37,7 +37,7 @@ void *P0(void *val)
         flag[0]=1;
         turn=1;
         while(flag[1]==1 && turn==1)
-	printf("Critical Section");
+	printf("Critical Section");         // Enters Critical Section
 
         global+=100;
         printf("\n Remainder Section %d",global);
@@ -53,7 +53,7 @@ void *P1(void *val)
         flag[1]=1;
         turn=0;
         while(flag[0]==1 && turn==0)
-	printf("Critical Section");
+	printf("Critical Section");         // Enters Critical Section
 
         global-=75;
         printf("\n Remainder Section %d",global);
