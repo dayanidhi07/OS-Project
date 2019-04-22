@@ -40,7 +40,7 @@ void *P0(void *val)
 	printf("Critical Section");         // Enters Critical Section
 
         global+=100;
-        printf("\n Remainder Section %d",global);
+        printf("\n Remainder Section %d",global);     // Remainder Section 
         flag[0]=0;
         i++;
     }
@@ -56,7 +56,7 @@ void *P1(void *val)
 	printf("Critical Section");         // Enters Critical Section
 
         global-=75;
-        printf("\n Remainder Section %d",global);
+        printf("\n Remainder Section %d",global);      // Remainder Section
         flag[1]=0;
         i++;
     }
