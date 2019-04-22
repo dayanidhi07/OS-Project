@@ -10,6 +10,7 @@ The structure of process Pi is ( I == 0 or 1) ; the other process is Pj (j== 1 o
 B) Write a program for the Swap () instruction can be used to provide mutual exclusion that satisfies the
 bounded-waiting requirement.
 
+CODE
 */
 
 #include<pthread.h>
