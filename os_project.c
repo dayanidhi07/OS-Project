@@ -3,7 +3,7 @@
 A) The first known correct software solution to the critical-section problem
 for two processes was developed by Dekker. The two processes, P0 and P1 , share the following
 variables:
-boolean flag[2]; /* initially false */
+boolean flag[2]; (initially false)
 int turn;
 The structure of process Pi is ( I == 0 or 1) ; the other process is Pj (j== 1 or 0). Write a program which satisfies all three requirements for the critical-section problem.
 
